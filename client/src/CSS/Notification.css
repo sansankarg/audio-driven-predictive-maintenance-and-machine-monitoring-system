@@ -1,0 +1,169 @@
+.notification-container {
+  padding: 20px;
+  font-family: 'Carrois Apostrophe', sans-serif;
+}
+
+/* General Styling for Sorting */
+.sorting-container {
+  display: flex;
+  gap: 12px; /* Adds spacing between the two dropdowns */
+}
+
+.sort-dropdown {
+  background-color:  #ffffff;
+  color:#1c1c1e ;
+  border: none;
+  padding: 8px 12px;
+  font-size: 14px;
+  font-family: "Segoe UI", sans-serif;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  width: 180px; /* Set the width for both dropdowns */
+  height: 40px;  /* Set a fixed height to keep them equal */
+}
+.sort-dropdown:hover{
+  background-color: rgb(197, 194, 194);
+}
+
+.sort-dropdown .icon {
+  margin-right: 8px;
+}
+
+.sort-dropdown .caret {
+  margin-left: 8px;
+}
+
+.filter-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  color: black;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 4px;
+}
+
+.dropdown-content button {
+  background-color: white;
+  color: black;
+  padding: 8px 12px;
+  text-align: left;
+  width: 100%;
+  border: none;
+  display: block;
+  cursor: pointer;
+}
+
+.dropdown-content button:hover {
+  background-color: rgb(197, 194, 194);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Fault List Styling */
+.fault-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.fault-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  margin-bottom: 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.fault-details {
+  flex: 1;
+  margin-right: 20px;
+}
+
+/* Styling for Delete Button with SVG */
+.delete-button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(20, 20, 20);
+  border: none;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.164);
+  cursor: pointer;
+  transition-duration: 0.3s;
+  overflow: hidden;
+  position: relative;
+  gap: 2px;
+}
+
+.svgIcon {
+  width: 12px;
+  transition-duration: 0.3s;
+}
+
+.svgIcon path {
+  fill: white;
+}
+
+/* Hover Effect for Delete Button */
+.delete-button:hover {
+  transition-duration: 0.3s;
+  background-color: rgb(255, 69, 69);
+  align-items: center;
+  gap: 0;
+}
+
+.bin-top {
+  transform-origin: bottom right;
+}
+
+.delete-button:hover .bin-top {
+  transition-duration: 0.5s;
+  transform: rotate(160deg);
+}
+
+/* Style for Empty Fault List */
+.no-faults {
+  font-style: italic;
+  color: #999;
+}
+
+/* Fades the fault row out */
+.fault-row.fade-out {
+  animation: fadeOut 0.5s forwards;
+}
+
+/* Keyframe for the fadeOut animation */
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+    transform: scale(1);
+  }
+  to {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+}

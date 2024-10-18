@@ -1,0 +1,71 @@
+
+h1, h2, h3 {
+  color: #333;
+  text-align: center;
+}
+
+.subheading {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.bar-chart, .pie-chart {
+  margin: 20px auto;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Align items at the top */
+  margin-bottom: 20px; /* Space between rows */
+}
+
+.column {
+  flex: 1; /* Take equal space */
+  padding: 10px; /* Padding for each column */
+  text-align: center; /* Center align text */
+}
+
+/* Apply a border to specific columns */
+.border {
+  border: 1px solid #ccc; /* Change this color as needed */
+  background-color: #f8f9fa; /* Light background by default */
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  border-radius: 10px; /* Rounded corners */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+  margin: 30px; /* Margin for spacing */
+}
+
+.column:hover, .border:hover {
+  background-color: #f0f0f0; /* Dark background on hover */
+  color: white; /* Text color changes to white */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: transparent !important;
+  filter: invert(1) !important;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background-color: transparent !important;
+  filter: invert(1) !important;
+}

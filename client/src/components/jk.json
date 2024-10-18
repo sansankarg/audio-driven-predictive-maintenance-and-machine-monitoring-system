@@ -1,0 +1,222 @@
+{
+  "_id": {
+    "$oid": "67080754338bfb21900e773e"
+  },
+  "email": "sansankarg@gmail.com",
+  "fullname": "Visvesh",
+  "username": "Visvesh",
+  "password": {
+    "$binary": {
+      "base64": "JDJiJDEyJDBYNkhQMHh3YldHYUpsbkZZL20xeHVqT2VyMFdNZWo5SDVxSlE5NTQ3Q1hSa080VEhxRjg2",
+      "subType": "00"
+    }
+  },
+  "plantdata": {
+    "plantname": "Sewing Industry",
+    "plantdesciption": "Coimbatore",
+    "zones": [
+      {
+        "zoneName": "Zone 1",
+        "zoneDescription": "Saravanampatti",
+        "machines": [
+          {
+            "machineId": {
+              "$numberLong": "1728628001422"
+            },
+            "machineName": "Machine 1",
+            "micIndex": 2,
+            "machineDescription": "Machine No:111"
+          }
+        ]
+      }
+    ]
+  },
+  "machinedata": [
+    [
+      {
+        "machineId": {
+          "$numberLong": "1728628001422"
+        },
+        "machine_name": "Machine 1",
+        "status": "NOT RUNNING",
+        "health": "------",
+        "zone": "Zone 1",
+        "micIndex": 2,
+        "time": "2024-10-11 11:58:01",
+        "amplitudeMean": 0.08240680893262227,
+        "rmsMean": 0.10509078328808148,
+        "zcrMean": 0.3442733373397436
+      }
+    ],
+    [
+      {
+        "machineId": {
+          "$numberLong": "1728628001422"
+        },
+        "machine_name": "Machine 1",
+        "status": "RUNNING",
+        "health": "HEALTHY",
+        "zone": "Zone 1",
+        "micIndex": 2,
+        "time": "2024-10-11 11:58:33",
+        "amplitudeMean": 0.1058833251396815,
+        "rmsMean": 0.13515896598498026,
+        "zcrMean": 0.4206204927884616
+      }
+    ],
+    [
+      {
+        "machineId": {
+          "$numberLong": "1728628001422"
+        },
+        "machine_name": "Machine 1",
+        "status": "RUNNING",
+        "health": "HEALTHY",
+        "zone": "Zone 1",
+        "micIndex": 2,
+        "time": "2024-10-11 11:59:05",
+        "amplitudeMean": 0.10696291923522949,
+        "rmsMean": 0.13623263935248056,
+        "zcrMean": 0.4232647235576923
+      }
+    ],
+    [
+      {
+        "machineId": {
+          "$numberLong": "1728628001422"
+        },
+        "machine_name": "Machine 1",
+        "status": "RUNNING",
+        "health": "HEALTHY",
+        "zone": "Zone 1",
+        "micIndex": 2,
+        "time": "2024-10-11 11:59:38",
+        "amplitudeMean": 0.10798766215642293,
+        "rmsMean": 0.13741658131281534,
+        "zcrMean": 0.4094576322115384
+      }
+    ],
+    [
+      {
+        "machineId": {
+          "$numberLong": "1728628001422"
+        },
+        "machine_name": "Machine 1",
+        "status": "RUNNING",
+        "health": "FAULTY",
+        "zone": "Zone 1",
+        "micIndex": 2,
+        "time": "2024-10-11 12:00:12",
+        "amplitudeMean": 0.12620084484418234,
+        "rmsMean": 0.1575837383667628,
+        "zcrMean": 0.3077574118589744
+      }
+    ],
+    [
+      {
+        "machineId": {
+          "$numberLong": "1728628001422"
+        },
+        "machine_name": "Machine 1",
+        "status": "RUNNING",
+        "health": "HEALTHY",
+        "zone": "Zone 1",
+        "micIndex": 2,
+        "time": "2024-10-11 12:00:46",
+        "amplitudeMean": 0.11311617741982143,
+        "rmsMean": 0.1435611347357432,
+        "zcrMean": 0.3915514823717949
+      }
+    ],
+    [
+      {
+        "machineId": {
+          "$numberLong": "1728628001422"
+        },
+        "machine_name": "Machine 1",
+        "status": "RUNNING",
+        "health": "FAULTY",
+        "zone": "Zone 1",
+        "micIndex": 2,
+        "time": "2024-10-11 12:01:18",
+        "amplitudeMean": 0.11071749031543732,
+        "rmsMean": 0.1407009313503901,
+        "zcrMean": 0.26050931490384616
+      }
+    ],
+    [
+      {
+        "machineId": {
+          "$numberLong": "1728628001422"
+        },
+        "machine_name": "Machine 1",
+        "status": "RUNNING",
+        "health": "FAULTY",
+        "zone": "Zone 1",
+        "micIndex": 2,
+        "time": "2024-10-11 12:01:49",
+        "amplitudeMean": 0.10974270105361938,
+        "rmsMean": 0.13887208700180054,
+        "zcrMean": 0.14067007211538463
+      }
+    ],
+    [
+      {
+        "machineId": {
+          "$numberLong": "1728628001422"
+        },
+        "machine_name": "Machine 1",
+        "status": "RUNNING",
+        "health": "FAULTY",
+        "zone": "Zone 1",
+        "micIndex": 2,
+        "time": "2024-10-11 12:02:22",
+        "amplitudeMean": 0.11100215464830399,
+        "rmsMean": 0.14007239043712616,
+        "zcrMean": 0.09979216746794872
+      }
+    ],
+    [
+      {
+        "machineId": {
+          "$numberLong": "1728628001422"
+        },
+        "machine_name": "Machine 1",
+        "status": "RUNNING",
+        "health": "FAULTY",
+        "zone": "Zone 1",
+        "micIndex": 2,
+        "time": "2024-10-11 12:02:53",
+        "amplitudeMean": 0.11013717949390411,
+        "rmsMean": 0.13989133139451346,
+        "zcrMean": 0.10281700721153847
+      }
+    ]
+  ],
+  "faults": [
+    {
+      "fault_id": "6708c665089f6f4514769934",
+      "machineId": {
+        "$numberLong": "1728628001422"
+      },
+      "machine name": "Machine 1",
+      "fault_time": "2024-10-11 12:02:05"
+    },
+    {
+      "fault_id": "6708c685089f6f4514769935",
+      "machineId": {
+        "$numberLong": "1728628001422"
+      },
+      "machine name": "Machine 1",
+      "fault_time": "2024-10-11 12:02:37"
+    },
+    {
+      "fault_id": "6708c6a4089f6f4514769936",
+      "machineId": {
+        "$numberLong": "1728628001422"
+      },
+      "machine name": "Machine 1",
+      "fault_time": "2024-10-11 12:03:08"
+    }
+  ]
+}

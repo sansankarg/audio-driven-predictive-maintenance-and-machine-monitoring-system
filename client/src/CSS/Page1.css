@@ -1,0 +1,11 @@
+.navbar-brand{
+    margin-right: 75%;
+    font-size: 180%;
+}
+.usernavbar{
+    position: absolute; /* Position the navbar absolutely within the .background-wrapper */
+    top: 0; /* Align the navbar to the top */
+    width: 100%; /* Full width */
+    z-index: 10; /* Ensure the navbar is above the carousel */
+    color: white;
+}

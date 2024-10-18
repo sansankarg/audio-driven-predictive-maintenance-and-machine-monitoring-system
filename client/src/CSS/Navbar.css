@@ -1,0 +1,65 @@
+/* Navbar styles */
+.navbar {
+    background-color: white;
+    padding: 10px 20px;
+    border-bottom: 2px solid #ccc;
+    display: flex;
+    align-items: center; /* Vertically center items */
+}
+
+/* Center align brand */
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    margin-right: auto; /* Ensure brand stays to the left */
+    margin-left: 1%; /* Keep left margin */
+}
+
+/* Align navigation links */
+.navbar-nav {
+    display: flex; /* Use flexbox to align items */
+    margin-left: auto; /* Push navigation links to the right */
+}
+
+/* Style for nav items */
+.navbar-nav .nav-item {
+    margin-right: 15px; /* Space between each nav item */
+}
+
+.navbar-nav .nav-item:last-child {
+    margin-right: 30px; /* Additional space for the last item */
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: black;
+    font-weight: 500;
+    text-decoration: none; /* Ensure no underlines */
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: black;
+    background-color: rgb(206, 203, 203);
+    border-radius: 5px;
+    /* No elevation or shadow */
+}
+
+/* Profile icon styles */
+.profile-icon {
+    width: 40px;
+    height: 40px;
+    background-color: #007bff;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* No hover elevation */
+.profile-icon:hover {
+    background-color: black;
+}

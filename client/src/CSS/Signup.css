@@ -1,0 +1,54 @@
+
+
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    width: 25%;
+    background-color: #fff;
+    padding: 20px 30px;
+    box-shadow: 0px 4px 30px -10px rgb(118, 118, 118);
+    border-radius: 5%;
+}
+label{
+    color: gray;
+}
+.SignUpanchor{
+    text-decoration: none;
+}
+.password-wrapper {
+    position: relative;
+}
+
+.eye-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.form-floating .form-control:focus ~ label,
+.form-floating .form-control:not(:placeholder-shown) ~ label {
+    opacity: .65;
+    transform: scale(.85) translateY(-0.5rem) translateX(0.15rem);
+}   
+.validitybox{
+    text-align: left;
+    font-size: 75%;
+}
+.validitybox .validated{
+    color: green;
+}
+.validitybox .not-validated{
+    color: red;
+}
+.check-icon{
+    margin-right: 5%;
+}
+.green{
+    color: green;
+}
+.red{
+    color: red;
+}
