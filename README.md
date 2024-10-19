@@ -1,8 +1,6 @@
 ![audio-driven-predictive-maintenance-and-machine-monitoring-system](https://socialify.git.ci/sansankarg/audio-driven-predictive-maintenance-and-machine-monitoring-system/image?font=KoHo&name=1&owner=1&pattern=Formal%20Invitation&theme=Dark)
 
 # **Audio-Driven Predictive Maintenance and Machine Monitoring System**
-
-## **Tech Stacks**
 ![Static Badge](https://img.shields.io/badge/Flask)
 ![Static Badge](https://img.shields.io/badge/Librosa)
 ![Static Badge](https://img.shields.io/badge/TensorFlow%2FKeras)
