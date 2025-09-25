@@ -16,8 +16,6 @@ var SignUp=()=>{
     const[length,setLength]=useState(false)
     
 
-    var typeofpassword="password"
-
     var [passwordfocus,setPasswordfocus]=useState(false)
     var [showpassword,setShowPassword]=useState(false)
     var [email,setEmail]=useState("")
@@ -102,7 +100,7 @@ var SignUp=()=>{
                 password: password,
                 confirmpassword: confirmpassword,
             });
-    
+            console.log(record.data);
             // Display the message returned from the server
             setResponseMessage(record.data.message); // Update the state with the response message
     
